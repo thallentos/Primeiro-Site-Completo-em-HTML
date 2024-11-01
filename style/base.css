@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    border: solid black;
+    border-width: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-right: solid black 1px;
+}
+
+.menu {
+    width: 15%;
+    background-color: #a50044;
+    padding: 10px 20px 0px;
+    border: solid black;
+    border-width: 0 5px 1px 0;
+}
+
+.header {
+    min-height: 150px;
+    border-bottom: solid black 1px;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    overflow: hidden; 
+}
+
+.header h1,
+.header p {
+    margin: 0; 
+    padding: 0;
+}
+
+.content {
+    background-color: #004d98;
+    min-height: 300px;
+    padding: 20px;
+    border-top: solid black 5px;
+    display: flex; /* Mantém o layout flexível */
+    flex-direction: column; /* Alinha os filhos em coluna */
+    align-items: flex-start; /* Alinha todos os filhos à esquerda */
+}
+
+.image-container {
+    display: flex; /* Usando flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente a imagem */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    margin-top: 20px; /* Espaço acima da imagem */
+}
+
+.footer {
+    background-color: #a50044;
+    min-height: 150px;
+    width: 98.2%;
+    border-top: solid black 5px;
+    border-bottom: solid black 0.5px;
+    padding-left: 18px;
+}
+
+.ney-header {
+    height: 150px;
+    width: 986px;
+}
+
+.ney-contato-gif {
+    border-radius: 15px;
+    width: 360px;
+    height: 270px;
+}
+
+a {
+    color: #004d98;
+}
+
+.iframe-contato {
+    border-radius: 15px; 
+    display: flex; /* Usando flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente a imagem */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    margin-top: 20px; /* Espaço acima da imagem */
+}
+
+.video-container {
+    display: flex; /* Usando Flexbox para centralizar o vídeo */
+    justify-content: center; /* Centraliza horizontalmente o vídeo */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    margin-top: 20px; /* Espaço acima do vídeo */
+}
+
+.video {
+    width: fit-content;
+    height: 360px;
+    border-radius: 15px;
+}
+
+label {
+    color: white;
+    margin-bottom: 3px;
+    display: block;
+}
+
+fieldset {
+    display: block;
+    width: 365%;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+.botoes {
+    display: block;
+}
+
+button {
+    margin-right: 49px;
+}
+
+.table-title {
+    background-color: #a50044;
+    color: #edbb00;
+    border-color: black;
+    border-radius: 15px;
+    border: black;
+}
+
+.table {
+    border-radius: 15px;
+    border-color: black;
+    padding: 5px;
+    border-style: solid;
+}
+
+td, th {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
